@@ -1,10 +1,10 @@
 package com.proofofconcept.entities;
 
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-
 import javax.persistence.*;
 import java.util.List;
 
@@ -18,7 +18,7 @@ public class Department {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "emp_id")
+    @Column(name = "dep_id")
     private long id;
 
     @Column(name = "department_name")
